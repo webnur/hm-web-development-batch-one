@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px;
+    /* flex-direction:row-reverse; */
+    justify-content: center;
+}
+.signle-product {
+    width: 200px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.product-image {
+    width: 190px;
+    height: auto;
+    margin: auto;
+
+}
+
+.product-image img {
+    width: 100%;
+    height: 120px;
+   
+}
+
+.product-info {
+    width: 190px;
+    margin: auto;
+}
+
+.prodcut-price-area {
+    display: flex;
+    justify-content: space-between;
+}
